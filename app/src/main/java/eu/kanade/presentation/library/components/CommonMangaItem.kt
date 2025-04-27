@@ -68,8 +68,10 @@ private const val GRID_SELECTED_COVER_ALPHA = 0.76f
  * Layout of grid list item with title overlaying the cover.
  * Accepts null [title] for a cover-only view.
  */
+
 @Composable
 fun MangaCompactGridItem(
+    modifier: Modifier = Modifier, // Add the modifier parameter
     coverData: MangaCoverModel,
     onClick: () -> Unit,
     onLongClick: () -> Unit,
@@ -86,6 +88,7 @@ fun MangaCompactGridItem(
         onLongClick = onLongClick,
     ) {
         MangaGridCover(
+            modifier = modifier, // Apply the modifier here
             cover = {
                 MangaCover.Book(
                     modifier = Modifier

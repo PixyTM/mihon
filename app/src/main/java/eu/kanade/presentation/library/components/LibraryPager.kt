@@ -89,8 +89,8 @@ fun LibraryPager(
                 LibraryCompactGrid(
                     items = library,
                     showTitle = displayMode is LibraryDisplayMode.CompactGrid,
-                    columns = columns,
-                    contentPadding = contentPadding,
+                    columns = 4,
+                    //contentPadding = contentPadding,
                     selection = selectedManga,
                     onClick = onClickManga,
                     onLongClick = onLongClickManga,

@@ -455,9 +455,9 @@
         <item name="colorOnPrimaryContainer">@color/monochrome_onPrimaryContainer</item>
         <item name="colorSecondary">@color/monochrome_secondary</item>
         <item name="colorOnSecondary">@color/monochrome_onSecondary</item>
-        <item name="colorSecondaryContainer">@color/monochrome_secondaryContainer</item>
+        <item name="colorSecondaryContainer">@color/monochrome_onPrimary</item>
         <item name="colorOnSecondaryContainer">@color/monochrome_onSecondaryContainer</item>
-        <item name="colorTertiary">@color/monochrome_tertiary</item>
+        <item name="colorTertiary">@color/monochrome_onPrimary</item>
         <item name="colorOnTertiary">@color/monochrome_onTertiary</item>
         <item name="colorTertiaryContainer">@color/monochrome_tertiaryContainer</item>
         <item name="colorOnTertiaryContainer">@color/monochrome_onTertiaryContainer</item>
